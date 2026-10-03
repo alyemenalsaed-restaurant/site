@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="مطعم اليمن السعيد - مأكولات يمنية وطلبات عبر واتساب">
+<title>حذف الحساب | مطعم اليمن السعيد</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="index.html"><img src="logo.jpg" alt="شعار مطعم اليمن السعيد"><span>مطعم اليمن السعيد</span></a>
+<nav><a class="" href="index.html">الرئيسية</a><a class="" href="about.html">من نحن</a><a class="" href="privacy.html">سياسة الخصوصية</a><a class="" href="terms.html">الشروط والأحكام</a><a class="active" href="delete-account.html">حذف الحساب</a></nav>
+</div></header>
+
+<section class="page-head"><h1>حذف الحساب</h1><p>طلب حذف حسابك وبياناتك</p></section>
+<section class="container">
+<div class="form-box">
+<div class="ornament">✦ ❖ ✦</div>
+<h2 style="font-family:'Amiri',serif;color:#5a2e1b;margin-bottom:10px">طلب حذف الحساب</h2>
+<p>أدخل رقم الهاتف المرتبط بالحساب ثم اقرأ التنبيه وأكد رغبتك.</p>
+<div class="notice"><b>تنبيه مهم:</b> بعد إرسال الطلب سيقوم فريق المطعم بمراجعته خلال <b>5 ساعات</b>. إذا تم تنفيذ الحذف، سيتم حذف البيانات ولن يمكن استعادتها مرة أخرى.</div>
+<label for="deletePhone">رقم الهاتف</label>
+<input id="deletePhone" type="tel" placeholder="مثال: 9677XXXXXXX">
+<label class="checkbox"><input id="agreeDelete" type="checkbox"> <span>أؤكد أنني أريد حذف حسابي وبياناتي، وأفهم أن البيانات لن تكون قابلة للاستعادة بعد تنفيذ الحذف.</span></label>
+<button class="btn" type="button" onclick="confirmDelete()">نعم، أريد حذف الحساب</button>
+<div id="deleteToast" class="toast"></div>
+<p class="small" style="margin-top:15px">سيتم إرسال طلب الحذف إلى واتساب المطعم لمراجعته.</p>
+</div>
+</section>
+<script src="script.js"></script>
+
+<footer>
+<div class="ornament">✦ ❖ ✦</div>
+<div><b>مطعم اليمن السعيد</b></div>
+<div class="small">مأكولات يمنية أصيلة • الدفع عند الاستلام</div>
+<div style="margin-top:8px"><a href="index.html">الرئيسية</a> · <a href="privacy.html">الخصوصية</a> · <a href="terms.html">الشروط والأحكام</a> · <a href="delete-account.html">حذف الحساب</a></div>
+<div class="small" style="margin-top:10px">واتساب: +967 11285473</div>
+</footer>
+</body></html>
